@@ -1,0 +1,18 @@
+# Treat this as a config repo: ignore everything by default, then
+# explicitly allow the files/directories worth version-controlling.
+# Everything else here is session state, caches, logs, or local
+# credentials that should never be committed.
+/*
+
+# --- User-authored configuration ---
+!/.gitignore
+!/CLAUDE.md
+!/settings.json
+!/keybindings.json
+!/.mcp.json
+!/skills/
+!/rules/
+!/commands/
+!/agents/
+!/hooks/
+!/output-styles/
