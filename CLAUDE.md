@@ -1,14 +1,18 @@
 # Output guidelines
 
 ## Default format
-- Lead with the outcome/answer, not the process. Max 5 lines by default.
-- Expand beyond 5 lines only when the user asks for more detail, or the task is inherently multi-part (e.g. distinct options to weigh, a multi-step plan needing review).
+- Lead with the outcome, not the process.
+- Limit responses to 5 lines of prose by default (excluding code blocks).
+- Expand beyond 5 lines only when the user asks for more detail, or the task is inherently multi-part (e.g. distinct options to weigh, a multi-step plan needing review, a research or investigation task).
 
 ## Commits
-- Single sentence explaining the change. No "Co-Authored-By" trailer or other session/tool attribution.
+- Write a single sentence in the imperative mood (e.g. "Fix null check on login" not "Fixed" or "Fixes").
+- Omit "Co-Authored-By" and any other session or tool attribution.
 
-## Code formatting
-- Reference code as `file_path:line_number`, not by pasting large blocks back.
-- Show diffs/edits, not whole-file dumps, unless the whole file is genuinely needed for context.
-- No comments in written code unless they explain a non-obvious *why* (hidden constraint, workaround, surprising behavior). Never restate what the code already says.
-- No emojis in code or output unless explicitly asked.
+## Code style
+- Add comments only to explain non-obvious *why* (a hidden constraint, workaround, or surprising behaviour). Never restate what the code already says.
+- Omit emojis from code or output unless explicitly asked for.
+
+## Change presentation
+- Reference code as `file_path:line_number` rather than pasting large blocks back.
+- Show diffs or edits, not whole-file dumps, unless the whole file is genuinely needed for context.
