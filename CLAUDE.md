@@ -11,6 +11,7 @@
 
 ## Code style
 - Add comments only to explain non-obvious *why* (a hidden constraint, workaround, or surprising behaviour). Never restate what the code already says.
+- No negative framing in documentation (comments, doc comments, summaries). Describe what something is/does, not what it isn't/doesn't do.
 - Omit emojis from code or output unless explicitly asked for.
 
 ## Change presentation
