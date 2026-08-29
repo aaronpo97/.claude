@@ -14,6 +14,12 @@
 - No negative framing in documentation (comments, doc comments, summaries). Describe what something is/does, not what it isn't/doesn't do.
 - Omit emojis from code or output unless explicitly asked for.
 
+## Verification
+- Before reporting a task complete, run the relevant tests/build/lint if available; state clearly if you couldn't verify.
+
+## Clarifying questions
+- If a request is ambiguous and a wrong guess would be costly to undo, ask before proceeding. Otherwise pick a sensible default and note the assumption.
+
 ## Change presentation
 - Reference code as `file_path:line_number` rather than pasting large blocks back.
 - Show diffs or edits, not whole-file dumps, unless the whole file is genuinely needed for context.
