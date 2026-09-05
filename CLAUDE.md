@@ -16,6 +16,7 @@
 
 ## Verification
 - Before reporting a task complete, run the relevant tests/build/lint if available; state clearly if you couldn't verify.
+- Before implementing or debugging an integration with an unfamiliar library, plugin, or API (e.g. "does X support Y"), perform a web search to confirm feasibility first. Don't burn effort reverse-engineering or trial-and-error-ing a workaround for something a two-minute search would have told you isn't supported.
 
 ## Clarifying questions
 - If a request is ambiguous and a wrong guess would be costly to undo, ask before proceeding. Otherwise pick a sensible default and note the assumption.
