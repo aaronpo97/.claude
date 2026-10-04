@@ -8,11 +8,12 @@
       "Bash(gh pr create:*)",
       "Bash(git commit:*)"
     ],
-    "defaultMode": "auto"
+    "defaultMode": "default"
   },
   "model": "sonnet",
   "disableRemoteControl": true,
   "defaultShell": "bash",
+  "autoCompactEnabled": false,
   "remoteControlAtStartup": false,
   "agentPushNotifEnabled": true
 }
